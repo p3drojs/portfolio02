@@ -1,0 +1,36 @@
+body{
+    background-color: black !important;
+    color: rgba(255, 255, 255, 0.74)!important; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+
+.nav-link:hover {
+    color: var(--bs-primary) !important; 
+    text-decoration: underline; 
+    transition: 0.3s ease-in-out;
+}
+
+.titleDiv{
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-start; 
+    gap: 15px;
+}
+
+.titleH1 {
+    margin: 0; 
+    font-size: 60px; 
+}
+
+.imgTony{
+    width: 150px;  
+    height: 150px; 
+    border-radius: 50%; 
+    border: 3px solid white; 
+    object-fit: cover;  
+    border: 3px solid var(--bs-primary);
+}
+
+.resume{
+    margin-top: 50px;
+}
